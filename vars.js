@@ -1,24 +1,26 @@
 const virus = require('@freezegold/covid-19')
 
-function confirmed() {
+async function confirmed() {
     virus.covid('global', (err, res) => {
         if (err) throw err;
-        confirmed = res.confirmed
-        return confirmed;
+        confirm = res.confirmed
+        return confirm;
     })
 }
 
-function recovered() {
+async function recovered() {
     virus.covid('global', (err, res) => {
         if (err) throw err;
-        recovered = res.recovered
+        recover = res.recovered
+        return recover;
     })
 }
 
-function deaths() {
+async function deaths() {
     virus.covid('global', (err, res) => {
         if (err) throw err;
-        deaths = res.deaths
+        death = res.deaths
+        return death;
     })
 }
 
