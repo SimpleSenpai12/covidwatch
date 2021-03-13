@@ -1,0 +1,32 @@
+{
+  "name": "covidwatch",
+  "version": "0.1.0",
+  "description": "Uses freezegr's covid module, along with the Express module, to host a local web server showing confirmed, recovered, and fatal cases stemming from the Coronavirus,",
+  "main": "corona.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimpleSenpai12/covidwatch.git"
+  },
+  "keywords": [
+    "corona",
+    "covid",
+    "coronavirus",
+    "virus",
+    "nodejs",
+    "npm",
+    "covid-19"
+  ],
+  "author": "SimpleSenpai12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimpleSenpai12/covidwatch/issues"
+  },
+  "homepage": "https://github.com/SimpleSenpai12/covidwatch#readme",
+  "dependencies": {
+    "@freezegold/covid-19": "^0.0.1",
+    "express": "^4.17.1"
+  }
+}
